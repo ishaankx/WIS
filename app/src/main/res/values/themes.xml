@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logosp</item>
+        <item name="postSplashScreenTheme">@style/Theme.WIS</item>>
+    </style>
 
-    <style name="Theme.WIS" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.WIS" parent="android:Theme.Material.Light.NoActionBar">
+
+
+    </style>
+
+
+
+
 </resources>

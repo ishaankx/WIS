@@ -148,7 +148,7 @@ fun LoginActivity() {
             Spacer(Modifier.height(itemSpacing))
             ElevatedButton(onClick = {}, modifier = Modifier.width(166.dp), colors = ButtonDefaults.buttonColors(
                 containerColor = BLUE) ){
-                Text("LOG IN", fontSize = 20.sp)
+                Text("LOG IN", fontSize = 20.sp, color = White)
 
             }
 

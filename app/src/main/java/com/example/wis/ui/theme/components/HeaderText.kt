@@ -16,7 +16,7 @@ fun HeaderText(
     Text(
         text = text,
         style = MaterialTheme.typography.displayMedium.copy(color = BLUE),
-        fontWeight = FontWeight.Light,
+        fontWeight = FontWeight.ExtraLight,
         modifier = modifier
     )
 }
